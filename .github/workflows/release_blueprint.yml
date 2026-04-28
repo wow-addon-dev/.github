@@ -86,7 +86,7 @@ jobs:
 
   release:
     name: Release
-    if: inputs.build == true
+    if: github.event.inputs.build == 'true'
     runs-on: ubuntu-latest
     needs: prework
     env:
