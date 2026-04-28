@@ -4,14 +4,14 @@ Arcane Wizard is a development group focused on creating World of Warcraft addon
 
 ## Project Overview
 
-| Addon | Functionality | Description |
-| :--- | :--- | :--- |
-| **Aurarium** | Wealth Tracker | Tracks gold and currencies across all characters and game versions. |
-| **Percursus** | Race Tracker & Overview | Provides live timers and performance overviews for various racing types. |
-| **Horatum** | Combat Time Tracker | Records boss encounter durations and victory/wipe statistics. |
-| **Expositum** | Tooltip Enhancements | Extends item tooltips with expansion data, categories, and item levels. |
-| **Memento** | Automated Screenshots | Automatically captures screenshots based on achievements and milestones. |
-| **Library** | Dialogs & Settings API | Provides centralized UI components, settings wrappers, and dialog handlers. |
+| Addon | Description |
+| :--- | :--- |
+| **Arcane Wizard: Library** | This is a library that bundles recurring code segments and functionalities. Originally developed to optimize the code of my own addons, it is designed to be easily utilized by other addon developers. |
+| **Aurarium** | Provides a detailed insight into wealth progression by tracking gold and currencies across all characters and displaying them over time. It helps you keep an accurate eye on your daily and monthly earnings. |
+| **Expositum** | Provides additional information about items directly in the tooltip. |
+| **Horatum** | Tracks every boss encounter and saves your fastest victories. It provides real-time feedback during combat and keeps a record of your performance across different difficulties. |
+| **Memento** | Automatically takes screenshots of meaningful gameplay events and personal milestones. It supports a wide variety of triggers, ensuring you never miss a great shot again. |
+| **Percursus** | Displays a live timer during a race (e.g., Dragonriding & Skyriding) and provides a detailed time overview of all completed races. It is compatible with all race types, including Skyriding, Dragonriding, Skyrocketing, and Breakneck (D.R.I.V.E.). It helps you track your performance in real-time and keep an eye on your records. |
 
 ## Contributions and Support
 
