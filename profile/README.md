@@ -4,7 +4,7 @@ Arcane Wizard is a development group focused on creating World of Warcraft addon
 
 ## Project Overview
 
-| Addon | Description |
+| Addon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | :--- | :--- |
 | **Arcane Wizard: Library** | This is a library that bundles recurring code segments and functionalities. Originally developed to optimize the code of my own addons, it is designed to be easily utilized by other addon developers. |
 | **Aurarium** | Provides a detailed insight into wealth progression by tracking gold and currencies across all characters and displaying them over time. It helps you keep an accurate eye on your daily and monthly earnings. |
