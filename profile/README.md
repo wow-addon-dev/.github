@@ -13,7 +13,7 @@ Arcane Wizard is a small development group focused on creating World of Warcraft
 | **Percursus** | This addon displays a live timer during a race (e.g., Dragonriding & Skyriding) and provides a detailed time overview of all completed races. It is compatible with all race types, including Skyriding, Dragonriding, Skyrocketing, and Breakneck (D.R.I.V.E.). It helps you track your performance in real-time and keep an eye on your records. |
 | **Arcane&nbsp;Wizard:&nbsp;Library** | This is a library that bundles recurring code segments and functionalities. Originally developed to optimize the code of my own addons, it is designed to be easily utilized by other addon developers. |
 
-## Contributions and Support
+## Contributions & Support
 
 * **Bug Reports**: Technical issues and feedback should be submitted via the **Issues** tab in the respective repository.
 * **Localization**: Translations are managed through the CurseForge localization tools linked in each project.
