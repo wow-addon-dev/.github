@@ -1,6 +1,5 @@
 name: Bug Report
 description: Report a bug to help improve this addon.
-labels: ["bug"]
 body:
   - type: dropdown
     id: game-version
