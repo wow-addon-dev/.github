@@ -45,7 +45,7 @@ body:
     id: reproducible
     attributes:
       label: Reproducibility
-      description: How often does this issue occur?
+      description: How often does this bug occur?
       options:
         - Yes, always (100%)
         - Sometimes (sporadically)
