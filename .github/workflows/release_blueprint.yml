@@ -63,7 +63,7 @@ jobs:
       - name: Specify old Git tags and define a new Git tag
         id: tag
         run: |
-          eval "$(python3 release-script/tag_define.py ${{ inputs.release-type }})"
+          eval "$(python3 release-script/workflow/tag_define.py ${{ inputs.release-type }})"
 
           if [[ -n "${{ inputs.release-tag }}" ]]; then
             echo "ℹ️ Neuer Tag (manuell): ${{ inputs.release-tag }}"
@@ -76,7 +76,7 @@ jobs:
 
       - name: Extend FULL-CHANGELOG.md with the current release notes
         if: inputs.full-changelog == true
-        run: python3 release-script/changelog_builder.py --version ${{ steps.tag.outputs.new_tag }}
+        run: python3 release-script/workflow/changelog_builder.py --version ${{ steps.tag.outputs.new_tag }}
 
       - name: Get the latest version of main from the repository
         run: |
@@ -85,7 +85,7 @@ jobs:
           git reset --hard origin/main
 
       - name: Set and push Git tag
-        run: python3 release-script/tag_push.py --tag ${{ steps.tag.outputs.new_tag }} --message "Tag ${{ steps.tag.outputs.new_tag }}"
+        run: python3 release-script/workflow/tag_push.py --tag ${{ steps.tag.outputs.new_tag }} --message "Tag ${{ steps.tag.outputs.new_tag }}"
 
   release:
     name: Release
@@ -119,6 +119,6 @@ jobs:
 
       - name: Package
         run: >
-          bash release-script/packager.sh
+          bash release-script/workflow/packager.sh
           --version ${{ needs.prework.outputs.new-tag }}
           --last-release-version ${{ needs.prework.outputs.last-release-tag }}
