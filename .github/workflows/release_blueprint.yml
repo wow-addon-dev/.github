@@ -1,4 +1,4 @@
-name: Shared Release Blueprint
+name: Release Blueprint
 
 on:
   workflow_call:
