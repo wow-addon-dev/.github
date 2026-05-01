@@ -17,7 +17,7 @@ body:
   - type: textarea
     id: feature-description
     attributes:
-      label: Feature Description
+      label: Description
       description: Explain your idea. You can drag and drop mockup screenshots here.
     validations:
       required: true
