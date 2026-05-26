@@ -19,8 +19,6 @@ on:
         required: true
         type: string
 
-permissions: {}
-
 jobs:
   prework:
     name: Prework
