@@ -7,6 +7,7 @@ Arcane Wizard is a small development group focused on creating World of Warcraft
 | Addon | Description |
 | :--- | :--- |
 | **Aurarium** | This addon provides a detailed insight into wealth progression by tracking gold and currencies across all characters and displaying them over time. It helps you keep an accurate eye on your daily and monthly earnings. |
+| **Commodum** | This addon adds a few quality-of-life improvements to everyday gameplay. |
 | **Expositum** | This addon provides additional information about items directly in the tooltip. |
 | **Horatum** | This addon tracks every boss encounter and saves your fastest victories. It provides real-time feedback during combat and keeps a record of your performance across different difficulties. |
 | **Memento** | This addon automatically takes screenshots of meaningful gameplay events and personal milestones. It supports a wide variety of triggers, ensuring you never miss a great shot again. |
