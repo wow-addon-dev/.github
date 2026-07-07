@@ -18,6 +18,14 @@ on:
       cf-project-id:
         required: true
         type: string
+      wago-project-id:
+        required: true
+        type: string
+    secrets:
+      CF_API_KEY:
+        required: true
+      WAGO_API_TOKEN:
+        required: true
 
 permissions: {}
 
@@ -100,7 +108,9 @@ jobs:
     needs: prework
     env:
       CF_PROJECT_ID: ${{ inputs.cf-project-id }}
+      WAGO_PROJECT_ID: ${{ inputs.wago-project-id }}
       CF_API_KEY: ${{ secrets.CF_API_KEY }}
+      WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
       GITHUB_OAUTH: ${{ secrets.BOT_TOKEN }}
     steps:
       - name: Checkout Addon Repository
