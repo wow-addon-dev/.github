@@ -21,6 +21,10 @@ on:
 
 permissions: {}
 
+concurrency:
+  group: publish-${{ github.repository }}
+  cancel-in-progress: false
+
 jobs:
   prework:
     name: Prework
