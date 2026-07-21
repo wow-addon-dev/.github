@@ -15,6 +15,10 @@ on:
       full-changelog:
         required: true
         type: boolean
+      release-timezone:
+        required: false
+        type: string
+        default: Europe/Berlin
       cf-project-id:
         required: true
         type: string
@@ -39,6 +43,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CF_PROJECT_ID: ${{ inputs.cf-project-id }}
+      RELEASE_TIMEZONE: ${{ inputs.release-timezone }}
     outputs:
       last-release-tag: ${{ steps.tag.outputs.last_release_tag }}
       last-tag: ${{ steps.tag.outputs.last_tag }}
