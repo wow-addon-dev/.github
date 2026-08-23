@@ -17,6 +17,6 @@ Arcane Wizard is a small group of hobby developers who enjoy creating World of W
 ## Contributions & Support
 
 * **Bug Reports**: Technical issues and feedback should be submitted via the **Issues** tab in the respective repository.
-* **Localization**: Translations are managed through the CurseForge localization tools linked in each project.
+* **Localization**: Translations should be submitted directly via GitHub.
 
 **View our projects on [CurseForge](https://www.curseforge.com/members/diomsg/projects).**
